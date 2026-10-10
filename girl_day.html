@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#140d20">
+<meta name="description" content="یه تبریک کوچولو و دوستانه برای روز دختر">
+<title>روز دختر مبارک، رفیق گل! 🌷</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+:root{color-scheme:dark;--bg:#140d20;--pink:#ffb8d0;--gold:#f4d58b;--paper:#fffaf7;--ink:#65465a;--rose:#9b456c}
+*{box-sizing:border-box}
+html{min-height:100%;scroll-behavior:smooth;-webkit-text-size-adjust:100%;text-size-adjust:100%}
+body{margin:0;min-height:100vh;min-height:100svh;width:100%;overflow-x:clip;font-family:Vazirmatn,Tahoma,sans-serif;color:#fff;background:radial-gradient(ellipse at 50% 0%,#472346 0,transparent 48%),radial-gradient(ellipse at 0% 100%,#352040 0,transparent 42%),linear-gradient(145deg,#10091b,#21132e 58%,#100a19);}
+button{font:inherit;touch-action:manipulation}
+.bg-stars{position:fixed;inset:0;pointer-events:none;opacity:.3;background-image:radial-gradient(#fff 1px,transparent 1.4px),radial-gradient(#ffd9e8 .8px,transparent 1.3px);background-size:53px 53px,79px 79px;background-position:0 0,21px 34px;mask-image:linear-gradient(#000,transparent 90%);z-index:0}
+.glow{position:fixed;width:min(58vw,380px);aspect-ratio:1;border-radius:50%;filter:blur(65px);opacity:.14;pointer-events:none;z-index:0;background:#ff7fb5;left:-130px;top:35%}
+main{position:relative;z-index:1;width:min(100% - 32px,720px);margin:0 auto;padding:clamp(22px,5vh,48px) 0 max(30px,env(safe-area-inset-bottom));display:flex;flex-direction:column;align-items:center;gap:clamp(14px,2.5vh,24px)}
+.sparkles{color:var(--gold);font-size:19px;letter-spacing:18px;text-align:center;animation:twinkle 2.6s ease-in-out infinite}
+.eyebrow{font-size:clamp(.72rem,2vw,.84rem);color:#f6dce8;text-align:center;line-height:1.8}
+.eyebrow:before,.eyebrow:after{content:"";display:inline-block;width:clamp(16px,5vw,38px);height:1px;vertical-align:middle;margin:0 10px;background:linear-gradient(90deg,transparent,var(--gold))}
+.eyebrow:after{transform:scaleX(-1)}
+header{text-align:center;width:100%;max-width:620px}
+h1{margin:0;font-size:clamp(1.7rem,5.4vw,3rem);line-height:1.55;font-weight:900;letter-spacing:-.035em}
+h1 span{background:linear-gradient(100deg,#fff0c9,#ffb8d0 55%,#e1c8ff);color:transparent;background-clip:text;-webkit-background-clip:text}
+.subtitle{margin:8px auto 0;max-width:36rem;color:#d1bfd9;font-size:clamp(.88rem,2.5vw,1rem);line-height:2}
+.stage{width:100%;max-width:460px;display:flex;flex-direction:column;align-items:center;position:relative;margin:6px 0 0}
+.stage:before{content:"✦";position:absolute;left:8%;top:4%;color:var(--gold);font-size:20px;animation:twinkle 2.2s infinite}
+.stage:after{content:"✧";position:absolute;right:5%;bottom:5%;color:#ffc4dc;font-size:23px;animation:twinkle 2.8s infinite .5s}
+.envelope-button{position:relative;width:100%;max-width:430px;aspect-ratio:1.48;border:0;padding:0;background:none;cursor:pointer;perspective:900px;filter:drop-shadow(0 18px 20px #0005);-webkit-tap-highlight-color:transparent;transition:transform .25s ease,opacity .4s ease}
+.envelope-button:hover{transform:translateY(-3px)}
+.envelope-button:focus-visible,.btn:focus-visible{outline:3px solid var(--gold);outline-offset:5px}
+.env-body{position:absolute;inset:8% 0 0;border-radius:12px 12px 17px 17px;background:linear-gradient(140deg,#673455,#3d203e 60%,#29172f);border:1px solid #f4d58b88;overflow:hidden}
+.env-body:before{content:"";position:absolute;inset:8px;border:1px solid #f4d58b33;border-radius:7px;pointer-events:none;z-index:5}
+.env-fold{position:absolute;inset:0;background:linear-gradient(135deg,#85476a,#4b2847);clip-path:polygon(0 0,50% 57%,100% 0,100% 100%,0 100%);z-index:3}
+.env-flap{position:absolute;inset:0 0 auto;height:66%;background:linear-gradient(160deg,#a05a7d,#693653 72%,#482344);clip-path:polygon(0 0,100% 0,50% 100%);transform-origin:top center;transition:transform .8s cubic-bezier(.6,0,.3,1);z-index:4}
+.seal{position:absolute;z-index:6;left:50%;top:48%;transform:translate(-50%,-50%);width:clamp(44px,12vw,58px);aspect-ratio:1;border-radius:50%;display:grid;place-items:center;background:radial-gradient(circle at 30% 25%,#e9a9c0,#a33d6b 60%,#70274d);border:2px solid #ffe0ad;box-shadow:0 4px 14px #13091e99;color:#fff0d5;font-size:clamp(20px,6vw,28px);transition:opacity .3s,transform .3s}
+.env-label{position:absolute;z-index:7;left:8px;right:8px;bottom:11%;text-align:center;color:#ffe8f0;font-size:clamp(.74rem,2.8vw,.9rem);text-shadow:0 2px 5px #2a1029}
+.env-label small{display:block;margin-top:4px;color:#f8d7e6;font-size:.82em}
+.envelope-button.opening{animation:envelopeOut .6s .15s forwards;pointer-events:none}
+.envelope-button.opening .env-flap{transform:rotateX(180deg)}
+.envelope-button.opening .seal{opacity:0;transform:translate(-50%,-50%) scale(.4)}
+@keyframes envelopeOut{to{opacity:0;transform:translateY(-18px) scale(.94);visibility:hidden}}
+.letter-card{display:none;width:100%;max-width:650px;position:relative;overflow:hidden;padding:clamp(22px,5vw,42px) clamp(18px,5.5vw,46px);color:var(--ink);text-align:center;border-radius:18px;border:1px solid #f0d5d8;background:radial-gradient(circle at 100% 0,#f9e6ec 0,transparent 34%),linear-gradient(135deg,#fffdf9,#fff3f2);box-shadow:0 22px 60px #0005;}
+.letter-card:before{content:"";position:absolute;inset:9px;border:1px solid #c98b9b70;border-radius:11px;pointer-events:none}
+.letter-card:after{content:"❀";position:absolute;right:17px;bottom:10px;color:#c67b94;font-size:20px;opacity:.7}
+.letter-card.show{display:block;animation:cardIn .65s cubic-bezier(.2,.8,.2,1) both}
+@keyframes cardIn{from{opacity:0;transform:translateY(18px) scale(.985)}to{opacity:1;transform:translateY(0) scale(1)}}
+.ornament{font-size:1.1rem;color:#c27c98;letter-spacing:.35em;margin-bottom:8px}
+.letter-card h2{position:relative;margin:0 0 16px;color:var(--rose);font-size:clamp(1.15rem,3.7vw,1.55rem);line-height:1.8;font-weight:900}
+.letter-card p{position:relative;margin:0 0 13px;font-size:clamp(.9rem,2.4vw,1rem);line-height:2.15;overflow-wrap:anywhere}
+.letter-card .wish{font-weight:800;color:#9b456c}
+.closing-line{width:70px;height:1px;margin:15px auto;background:linear-gradient(90deg,transparent,#c98b9b,transparent)}
+.signature{position:relative;color:#a66d86;font-size:clamp(.8rem,2.2vw,.92rem);line-height:2}
+.chip{position:relative;display:inline-block;margin-top:13px;padding:6px 15px;border:1px solid #c98b9b66;border-radius:99px;background:#f9e8ed;color:#9b456c;font-size:.8rem}
+.note{width:100%;text-align:center;color:#c2b0ce;font-size:clamp(.77rem,2.2vw,.88rem);line-height:1.9;margin-top:0}
+.actions{width:100%;max-width:460px;display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.btn{min-width:0;min-height:48px;border:1px solid #f3d7e355;border-radius:999px;padding:11px 16px;color:#f9e8ef;background:#ffffff0c;backdrop-filter:blur(8px);cursor:pointer;transition:transform .2s,background .2s;overflow-wrap:anywhere}
+.btn:hover{background:#ffffff18;transform:translateY(-2px)}
+.btn.primary{background:linear-gradient(120deg,#a44d76,#71385f);box-shadow:0 8px 25px #6d2c4c35}
+.btn.primary:hover{background:linear-gradient(120deg,#b65b86,#80436d)}
+.wish-footer{display:flex;align-items:center;justify-content:center;gap:9px;text-align:center;color:#c3afce;font-size:clamp(.72rem,2vw,.8rem);line-height:1.8;width:100%}
+.wish-footer i{display:block;flex:0 0 24px;height:1px;background:#f4d58b77}
+footer{font-size:.72rem;color:#8f7d9c;text-align:center;line-height:1.8}
+.burst{position:fixed;z-index:10;pointer-events:none;animation:burst 1.25s ease-out forwards;font-size:21px}
+@keyframes burst{to{transform:translate(var(--dx),var(--dy)) scale(1.15) rotate(var(--rot));opacity:0}}
+@keyframes twinkle{50%{opacity:.35;transform:scale(.75) rotate(20deg)}}
+@media(max-width:600px){
+ main{width:calc(100% - 28px);padding-top:max(18px,env(safe-area-inset-top));gap:15px}
+ .sparkles{font-size:16px;letter-spacing:13px}
+ .eyebrow:before,.eyebrow:after{margin:0 6px}
+ h1{font-size:clamp(1.55rem,6.7vw,2.25rem);letter-spacing:-.025em;line-height:1.6}
+ .subtitle{font-size:clamp(.84rem,3.7vw,.98rem);line-height:1.95;margin-top:6px}
+ .stage{max-width:430px;margin-top:3px}
+ .envelope-button{width:100%;aspect-ratio:1.38}
+ .env-label{bottom:9%;font-size:clamp(.72rem,3vw,.86rem)}
+ .letter-card{border-radius:15px;padding:26px clamp(16px,5vw,25px) 29px}
+ .letter-card:before{inset:7px;border-radius:10px}
+ .letter-card h2{font-size:clamp(1.05rem,4.7vw,1.3rem);margin-bottom:13px;line-height:1.85}
+ .letter-card p{font-size:clamp(.86rem,3.65vw,.96rem);line-height:2.05;margin-bottom:12px}
+ .signature{font-size:clamp(.77rem,3.2vw,.86rem)}
+ .actions{grid-template-columns:1fr;gap:9px;max-width:430px}
+ .btn{width:100%;min-height:48px;font-size:.91rem}
+ .note{padding-inline:4px}
+}
+@media(max-width:360px){
+ main{width:calc(100% - 22px);gap:13px}
+ h1{font-size:1.5rem}
+ .eyebrow{font-size:.68rem}
+ .envelope-button{aspect-ratio:1.28}
+ .letter-card{padding:24px 14px 26px}
+ .letter-card p{font-size:.84rem;line-height:2}
+ .wish-footer{gap:6px}
+ .wish-footer i{flex-basis:14px}
+}
+@media(orientation:landscape) and (max-height:520px){
+ main{padding-top:12px;gap:10px}
+ .sparkles{display:none}
+ h1{font-size:1.7rem;line-height:1.4}
+ .subtitle{margin-top:3px;line-height:1.6}
+ .stage{max-width:350px;margin-top:0}
+ .envelope-button{aspect-ratio:1.7;max-width:350px}
+ .letter-card{max-width:600px;padding:18px 28px}
+ .letter-card p{line-height:1.8;margin-bottom:8px}
+}
+@media(prefers-reduced-motion:reduce){*,*:before,*:after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important;scroll-behavior:auto!important}}
+</style>
+</head>
+<body>
+<div class="bg-stars" aria-hidden="true"></div><div class="glow" aria-hidden="true"></div>
+<main>
+  <div class="sparkles" aria-hidden="true">✧ ✦ ✧</div>
+  <div class="eyebrow">یه تبریک کوچولو برای یه دوست خوب</div>
+  <header>
+    <h1>روز دختر مبارک، <span>رفیقِ گل! 🌷</span></h1>
+    <p class="subtitle">یه بهونه‌ی قشنگ برای گفتن یه چیز ساده:<br>خوبه که آدمای خوبی مثل تو توی دنیا هستن.</p>
+  </header>
+  <section class="stage" aria-label="پاکت نامه‌ی تبریک روز دختر">
+    <button class="envelope-button" id="envelopeButton" type="button" aria-label="باز کردن نامه" aria-expanded="false">
+      <span class="env-body" aria-hidden="true"><span class="env-fold"></span><span class="env-flap"></span></span>
+      <span class="seal" aria-hidden="true">♡</span>
+      <span class="env-label">یه پیام کوچولو برات…<small>برای خوندن نامه لمس کن ✨</small></span>
+    </button>
+    <article class="letter-card" id="letterCard" aria-hidden="true">
+      <div class="ornament" aria-hidden="true">✦ ❀ ✦</div>
+      <h2>روز دخترت مبارک، رفیق جان! 🌸</h2>
+      <p>امیدوارم همیشه دلت خوش، لبت خندون و روزات پر از اتفاقای خوب باشه.</p>
+      <p>امیدوارم به هر چیزی که براش ذوق داری برسی، کلی خاطره‌ی خوب بسازی و هر روز یه دلیل تازه برای خوشحال بودن پیدا کنی.</p>
+      <p>همیشه همین‌قدر خودت باش؛ با خنده‌ها، سلیقه‌ها و حال‌وهوای مخصوص خودت. دنیا به آدمای واقعی و خوش‌قلب نیاز داره.</p>
+      <p class="wish">خلاصه که روز دختر مبارک! امیدوارم امسال برات پر از خبرای خوب، موفقیت‌های خفن و لحظه‌های قشنگ باشه. ✨</p>
+      <div class="closing-line"></div>
+      <div class="signature">از طرف یه دوست که برات بهترین‌ها رو آرزو می‌کنه ♡</div>
+      <div class="chip">کلی بخند، کلی بدرخش!</div>
+    </article>
+  </section>
+  <p class="note" id="note" aria-live="polite">روی پاکت بزن؛ یه سورپرایز کوچولو منتظرته ✨</p>
+  <div class="actions">
+    <button class="btn primary" id="toggleButton" type="button">باز کردن نامه ✉</button>
+    <button class="btn" id="confettiButton" type="button">بارون گل و ستاره 🌸</button>
+  </div>
+  <div class="wish-footer"><i aria-hidden="true"></i><span>امیدوارم روزت به قشنگی خودت باشه</span><i aria-hidden="true"></i></div>
+  <footer>با رفاقت و آرزوی کلی اتفاق خوب 🌙</footer>
+</main>
+<script>
+(() => {
+  const envelope = document.getElementById('envelopeButton');
+  const card = document.getElementById('letterCard');
+  const toggle = document.getElementById('toggleButton');
+  const confetti = document.getElementById('confettiButton');
+  const note = document.getElementById('note');
+  let isOpen = false;
+  let openTimer;
+  function setOpen(next) {
+    if (next === isOpen) return;
+    isOpen = next;
+    clearTimeout(openTimer);
+    if (isOpen) {
+      envelope.classList.add('opening');
+      envelope.setAttribute('aria-expanded', 'true');
+      envelope.setAttribute('aria-label', 'نامه باز شده است');
+      toggle.textContent = 'بستن نامه ↺';
+      note.textContent = 'امیدوارم کلی اتفاق خوب در انتظارت باشه؛ روزت مبارک! 🌷';
+      openTimer = setTimeout(() => {
+        card.classList.add('show');
+        card.setAttribute('aria-hidden', 'false');
+        envelope.hidden = true;
+        card.scrollIntoView({behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth', block: 'nearest'});
+      }, 420);
+      burstHearts(window.innerWidth / 2, Math.min(window.innerHeight * .48, 380), 18);
+    } else {
+      card.classList.remove('show');
+      card.setAttribute('aria-hidden', 'true');
+      envelope.hidden = false;
+      envelope.classList.remove('opening');
+      envelope.setAttribute('aria-expanded', 'false');
+      envelope.setAttribute('aria-label', 'باز کردن نامه');
+      toggle.textContent = 'باز کردن نامه ✉';
+      note.textContent = 'روی پاکت بزن؛ یه سورپرایز کوچولو منتظرته ✨';
+    }
+  }
+  envelope.addEventListener('click', () => setOpen(true));
+  toggle.addEventListener('click', () => setOpen(!isOpen));
+  confetti.addEventListener('click', () => burstHearts(window.innerWidth / 2, Math.min(window.innerHeight * .55, 430), 30));
+  function burstHearts(x, y, count) {
+    const symbols = ['✿','♡','✦','✧','🌸','✨','★'];
+    for (let i = 0; i < count; i++) {
+      const el = document.createElement('span');
+      el.className = 'burst'; el.setAttribute('aria-hidden', 'true');
+      el.textContent = symbols[Math.floor(Math.random() * symbols.length)];
+      el.style.left = Math.max(4, Math.min(window.innerWidth - 28, x)) + 'px';
+      el.style.top = Math.max(4, Math.min(window.innerHeight - 28, y)) + 'px';
+      el.style.color = ['#ffabc8','#f4d58b','#e5c9ff','#fff0f5'][i % 4];
+      el.style.setProperty('--dx', `${(Math.random() - .5) * Math.min(300, window.innerWidth * .75)}px`);
+      el.style.setProperty('--dy', `${(Math.random() - .5) * 220 - 35}px`);
+      el.style.setProperty('--rot', `${Math.random() * 180 - 90}deg`);
+      document.body.appendChild(el);
+      el.addEventListener('animationend', () => el.remove(), {once:true});
+    }
+  }
+})();
+</script>
+</body>
+</html>
